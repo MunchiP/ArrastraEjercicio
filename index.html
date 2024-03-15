@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- hoja de estilos -->
+    <link href="style.css" rel="stylesheet">
+    <!-- Fuente de letra -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap" rel="stylesheet">
+    <!-- Fuente de h1 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Dosis:wght@200..800&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div class="menu">
+        <p class="btnMenu"> <a href="index.html"> Boton y Click </a> </p>
+        <p class="btnMenu">    <a href="index2.html"> Arrastra Mal </a> </p>
+        <p class="btnMenu">    <a href="index3.html"> Arrastra Bien </a> </p>
+        <p class="btnMenu">    <a href="index5.html"> Arrastra Elemento </a> </p>
+    </div>
+
+    <div class="contenedor">
+        <div class="primerBloque">
+            <div class="seccionBoton">
+                <h1> Botón </h1>
+                <p> Pase el mouse por el botón y evidencie el efecto</p>
+                <button class="btn"> Enviar </button>
+                <button class="btn1"> Cambiar </button>
+                <button class="btn2"> Mover </button>
+                <button class="btn3"> Diferente </button>
+    
+                <h1> Click</h1>
+                <p> Haga click en el checkbok para anular el botón</p>
+                <button id="btnCheck" class="btnClickA"> Enviar </button>
+                <input type="checkbox" id="check">
+            </div>
+        </div>
+
+        <div class="linea"> </div>
+
+
+        <div class="segundoBloque">
+            <div class="dentro">
+                
+            <h1> Locación </h1>
+            <p> Seleccione el país, departamento y ciudad según corresponda. </p>
+            <select id="Pais">
+                <option value=""></option>
+                <option value="Mx">México</option>
+                <option value="Usa">Estados Unidos</option>
+                <option value="Col">Colombia</option>
+            </select>
+
+                <!-- opcion Mèxico -->
+            <select id="DepMx" style="display: none">
+                <option value=""></option>
+                <option value="Chi">Chiapas</option>
+            </select>
+
+            <select id="CiuMx" style="display: none">
+                <option value=""></option>
+                <option value="SCL">San Cristobal de las Casas</option>
+                <option value="Tux">Tuxtla</option>
+                <option value="Com">Comitan</option>
+            </select>
+
+            
+                <!-- opcion USA -->
+                <select id="DepUsa" style="display: none">
+                    <option value=""></option>
+                    <option value="CN">Carolina del Norte</option>
+                </select>
+    
+                <select id="CiuUsa" style="display: none">
+                    <option value=""></option>
+                    <option value="Char">Charlotte</option>
+                    <option value="Hunt">Huntersville</option>
+                    <option value="Corn">Cornelius</option>
+                </select>
+
+            <!-- opcion Colombia -->
+            <select id="DepCol" style="display: none">
+                <option value=""></option>
+                <option value="CiuAra">Arauca</option>
+                <option value="CiuRis">Risaraldas</option>
+            </select>
+
+            <select id="CiuAra" style="display: none">
+                <option value="Ar">Arauca</option>
+                <option value="Arq">Arauquita</option>
+                <option value="Crn">Cravo Norte</option>
+                <option value="For">Fortul</option>
+                <option value="Pur">Puerto Rendón</option>
+                <option value="Sar">Saravena</option>
+                <option value="Tam">Tame</option>
+            </select>
+
+            <select id="CiuRis" style="display: none">
+                <option value="Api">Apía</option>
+                <option value="Bal">Balboa</option>
+                <option value="Bel">Belén de Umbría</option>
+                <option value="Dos">Dosquebradas</option>
+                <option value="Gua">Guática</option>
+                <option value="Lac">La Celia</option>
+                <option value="Lav">La Virginia</option>
+                <option value="Mar">Marsella</option>
+                <option value="Mis">Mistrató</option>
+                <option value="Per">Pereira</option>
+                <option value="Pue">Pueblo Rico</option>
+                <option value="Qui">Quinchía</option>
+                <option value="Stc">Santa Rosa de Cabal</option>
+                <option value="Sat">Santuario</option>
+            </select>
+
+            <br>
+
+            <button class="btnClickA btnSection" onclick="buscar()"> Buscar </button>
+            <p id="Resultado"> </p>
+            </div>
+        </div>
+    </div>
+
+        <!-- relacionando el JavaScript -->
+        <script src="js.js"></script>
+</body>
+</html>

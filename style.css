@@ -1,0 +1,287 @@
+body{
+    margin: auto;
+}
+
+.menu{
+    margin-top: auto;
+    height: 90px;
+    /* background: linear-gradient(to bottom right, rgb(29, 105, 83), rgb(255, 238, 0)); */
+    background-color: #5b5847;
+    display: flex;
+}
+
+a{
+    color: #fffec6;
+    text-decoration: none;
+}
+
+.btnMenu{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 2rem;
+    font-size: 30px;
+    color: #fffec6;
+    cursor: pointer;
+    font-family: "Dosis", sans-serif;
+}
+
+.btnMenu:hover{
+    text-shadow: 5px 5px 5px #cc5d4c;
+}
+
+h1{
+    color: #cc5d4c;
+    font-family: "Chakra Petch", sans-serif;
+}
+
+p{
+    font-size: 20px;
+}
+
+.contenedor{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ .primerBloque , .segundoBloque{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+    width: 600px;
+}
+
+.dentro{
+    margin-left: 4rem;
+}
+
+.btn , .btn1 , .btn2 , .btn3{
+    height: 50px;
+    width: 90px;
+    border-radius: 15px;
+    border: none;
+    background-color: #E4DEBE;
+    color: #A94438;
+    font-size: 15px;
+    transition: 1s;
+}
+
+.btn:hover{
+    background-color: red;
+    color: #E4DEBE;
+    cursor: pointer;
+}
+
+.btn1:hover{
+    height: 55px;
+    width: 95px;
+    background-color: rgb(0, 242, 255);
+    color: #4a6561;
+    cursor: cell;
+}
+
+.btn2:hover{
+    height: 60px;
+    width: 100px;
+    background: linear-gradient(to bottom right, rgb(29, 105, 83), rgb(255, 238, 0));
+    color: #E4DEBE;
+    cursor: zoom-in;
+}
+
+.btn3:hover{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: rgb(0, 0, 0);
+    color: #E4DEBE;
+    cursor: move;
+}
+
+.btnClickA{
+    height: 50px;
+    width: 90px;
+    border-radius: 15px;
+    border: none;
+    background-color: #A94438;
+    color: #E4DEBE;
+    font-size: 15px;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.btnClick{
+    height: 40px;
+    width: 90px;
+    border-radius: 10px;
+    border: none;
+    background-color: #bababa;
+    color: #000000;
+    font-size: 15px;
+    transition: 1s;
+    cursor: not-allowed;
+}
+
+#check{
+    height: 25px;
+    width: 25px;
+    background-color: #A94438;
+}
+
+
+.linea{
+    margin-top: 2rem;
+    height: 500px;
+    border-left: 2px  solid #96b49c;
+}
+
+
+select{
+    height: 35px;
+    width: 250px;
+    border-radius: 5px;
+    font-size: 15px;
+    margin-top: 1rem;
+}
+
+option{
+    font-size: 20px;
+}
+
+/* Segundo index */
+
+
+.container{
+    width: 100%;
+    background-color: #A94438;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cajaIzquierda , .cajaDerecha{
+    height: 300px;
+    width: 300px;
+    margin-top: 4rem;
+    border: #D24545 double;
+}
+
+img{
+    height: 80px;
+    cursor: grab;
+}
+
+.titulo{
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+    flex-direction: column; 
+}
+
+.btnSection{
+    margin-top: 2rem;
+}
+
+/* Tercer Index */
+
+.contenedorCajas{
+    display: flex;
+}
+
+.imagenE{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logoUsuario{
+    height: 270px;
+    border-radius: 50%;
+    box-shadow: 0px 10px 10px #5b5847;
+}
+
+.imagenE , .informacion{
+    margin-left: 13%;
+    margin-right: 13%;
+    margin-top: 3%;
+}
+
+input{
+    height: 30px;
+    width: 400px;
+}
+
+.imgText{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#btnForm{
+    display: flex;
+    margin-left: auto;
+    margin-right: 4rem;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 100px;
+    border-radius: 13px;
+    border: none;
+    font-size: 18px;
+    background-color: #5b5847;
+    color: #fffec6;
+    cursor: pointer;
+}
+
+.rest{
+    margin-left: 1rem;
+    color: #5b5847;
+}
+
+.textoInfo{
+    font-weight: bold;
+}
+
+#fotoRes img{
+    height: 270px;
+    border-radius: 50%;
+    box-shadow: 0px 10px 10px #5b5847;
+}
+
+/* Index5 */
+
+#fotoInput{
+    background-size: contain;
+}
+
+.subeArchivo {
+    height: 300px;
+    width: 300px;
+    border: dotted gray;
+}
+
+.moverImagen{
+    height: 40px;
+    width: 80px;
+    background-color: #96b49c;
+    color: #5b5847;
+    border-radius: 15px;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+.cajaDerecha1{
+    height: 300px;
+    width: 300px;
+    border: #D24545 double;
+}
+/* .subeArchivo{
+    height: 100px;
+    width: 500px;
+    border: dotted gray;
+    background-color: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
